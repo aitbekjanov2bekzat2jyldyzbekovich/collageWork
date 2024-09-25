@@ -19,3 +19,36 @@
   margin: 0;
   box-sizing: border-box;
 }
+.inputWrp{
+  margin-top: 20px;
+  margin: 0 auto;
+  width: max-content;
+}
+.inp{
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  outline: none;
+  margin: 20px 0;
+}
+.inp:focus{
+  border: 1px solid red;
+}
+
+.inpBtn{
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 10px;
+  height: 70px;
+  border-radius: 10px;
+  border: 1px solid red;
+}
